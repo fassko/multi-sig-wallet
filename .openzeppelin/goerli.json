@@ -1,0 +1,104 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x216652896ba84BAa941a25720c95C5e28E148F18",
+    "txHash": "0x9940c6552c98acb6176dc54e96a21ef7ffb47b0403088756f8b31fbbc0ec5264"
+  },
+  "proxies": [
+    {
+      "address": "0x2a9C8BB990ac89A462beEeaD426763a7Bb1A8980",
+      "txHash": "0x7f39bc0a0a487bec33e1c10b9909b5d12fcf0222ea7140b4ed5464dc6ba5952e",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "839783b670872da53864b1f93d4aab4ae983da892986b520a1e2fe1d0d323b6c": {
+      "address": "0x14C831f9fe9f9748D4787AEEe4fdD7AFc71dD665",
+      "txHash": "0xf8f47e9c5c5b1975f4d5c04d7b7f159a3cac38b1f633d2372479f3a1325f65cf",
+      "layout": {
+        "storage": [
+          {
+            "label": "luckyNumber",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "LuckyNumber",
+            "src": "contracts/LuckyNumber.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "44552671c74122352ac023ec8726de28fc60450cd77a435ecc5ca0c6e217c480": {
+      "address": "0x302eCc8B68AA522f0Df59578Ca85122Bf9304b8F",
+      "txHash": "0x195f2dd728875f08d092b10c29caeeebae677b3a46c93d8d0952e89831ce0b99",
+      "layout": {
+        "storage": [
+          {
+            "label": "luckyNumber",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "LuckyNumber",
+            "src": "contracts/LuckyNumber.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "2499d0f46739ec59e7256bd361bc3b3dccf3431a94b812185a6a7dc955312bf4": {
+      "address": "0x77FAA09e34BF183802C3aAFd3B2059939A5A280c",
+      "txHash": "0xb5708070aeb935771a890b7590ee964dd140955c5693e5f15f2b0b1ba4d30d93",
+      "layout": {
+        "storage": [
+          {
+            "label": "luckyNumber",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "LuckyNumber",
+            "src": "contracts/LuckyNumber.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "e154a18d64e323794467d16dd5b3a05a798ce53fb9d5d355848b49dcd57e9a7a": {
+      "address": "0x31995d079832d76b305e99601b64E452e8463429",
+      "txHash": "0x23814cb60e36e2f16f9f196cd14ce1f89c831a41d59f41e3b1c6a7a29214feef",
+      "layout": {
+        "storage": [
+          {
+            "label": "luckyNumber",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "LuckyNumber",
+            "src": "contracts/LuckyNumber.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
